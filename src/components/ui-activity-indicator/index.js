@@ -52,8 +52,8 @@ export default class UIActivityIndicator extends PureComponent {
     outputRange.unshift(...outputRange.slice(-1));
 
     let barStyle = {
-      width: size / 10,
-      height: size / 4,
+      width: size / 11,
+      height: size / 2.8,
       borderRadius: size / 20,
       backgroundColor,
       opacity: progress
